@@ -1,0 +1,253 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #104f55;
+    color: white;
+}
+
+:root{
+    /*theme color*/
+    --text-grey: #3f4943;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+
+/*gradiant color */
+--sky: linear-gr adient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+    /*theme font*/
+}
+
+.nav-container{
+    margin: 0rem;
+    padding: 1rem;
+    background-color: #104f55;
+}
+
+.brand-container .brand{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+.brand .brand-logo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.menu-container .menu{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    margin: 1rem 1rem;
+    padding: 0;
+    list-style-type: none;
+    height: 0;
+}
+.shop-item-container{
+    display: flex;
+}
+.menu{
+    margin: 0rem;
+    text-align: center;
+    padding: 4rem;
+}
+.menu-list{
+    padding: .6rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: #0f0f0f;
+}
+.menu-container .menu .menu-list{
+    background: #1999d4;
+    height: 1rem;
+    padding: 1 4rem;
+    border-radius: .3rem;
+}
+.menu-container .menu .menu-list:hover{
+    background-color: white;
+    color: #1999d4;
+    border: 1px solid #1999d4;
+    
+}
+.cart-item-title{
+    color: black;
+    font-weight: bold;
+}
+.item-title{
+    color: white;
+}
+
+.container{
+    margin: 0rem;
+    text-align: center;
+    background-color: white;
+    padding: 0;
+}
+.item-container{
+    margin: 0rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.items{
+    margin: 0;
+    width: 10rem;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+    text-align: center;
+}
+.item-details{
+    font-size: .7rem;
+    text-align: center;
+    color: #3f4943;
+}
+.item-price{
+    color: #0f0f0f;
+}
+.add-item-button{
+    border: none;
+    background-color: #1999d4;
+    color: white;
+    border-radius: .5rem;
+    padding: .3rem;
+    margin: .2rem;
+}
+.add-item-button:hover{
+    background-color: transparent;
+    border: 1px solid #1999d4;
+    color: #1999d4;
+}
+.buy-item-button{
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 1rem 6rem;
+}
+#active{
+    background-color: white;
+    color: #1999d4;
+}
+.buy-item-button:hover{
+    background-color: #1999d4;
+    border: 1px solid #1999d4;
+    color: white;
+}
+.remove-item-button{
+    border: none;
+    background-color: #1999d4;
+    color: white;
+    border-radius: .5rem;
+    padding: .3rem;
+    margin: 1.5rem .2rem;
+    height: 2rem;
+}
+.remove-item-button:hover{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+
+.cart-container{
+    background-color: grey;
+}
+.cart-item{
+    margin: 1rem;
+}
+.item-cart{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.item-quantity{
+    height: 2rem;
+    width: 3rem;
+    text-align: center;
+    border-radius: .2rem;
+    border: none;
+}
+.item-cart .cart-item-title{
+    margin: 2rem 0;
+}
+.item-cart .item-quantity{
+    margin: 1.5rem 0;
+}
+.item-cart{
+    border-bottom: 2px solid #1999d4;
+}
+.cart-remove-price{
+    margin: 2rem 0;
+}
+.total-container{
+    display: flex;
+    float: right;
+    background-color: #104f55;
+}
+.total{
+    margin: 0 1rem;
+}
+.total-price{
+    margin: 0 1rem;
+}
+
+
+@media screen and (max-width: 500px){
+    .shop-item-container{
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .items{
+        text-align: center;
+        align-items: center;
+    }
+    .nav-container{
+        height: 20vh;
+        display: block;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .menu-list{
+        margin: 5rem 0;
+    }
+    .item-quantity{
+        height: 1rem;
+        width: 1.5rem;
+        text-align: center;
+        border-radius: .2rem;
+        border: none;
+    }
+    .remove-item-button{
+        border: none;
+        background-color: #1999d4;
+        color: white;
+        border-radius: .5rem;
+        padding: .2rem;
+        margin: 1.6rem .1rem;
+        height: 1.2rem;
+        font-size: .5rem;
+    }
+    .remove-item-button:hover{
+        background-color: red;
+        border: 1px solid red;
+        color: white;
+    }
+    .item-cart .item-title{
+        display: none;
+        margin: 2rem 0;
+    }
+    .item-cart{
+        text-align: center;
+        padding: 0 4rem;
+    }
+}
+
+
+/*      viewpoint less than or equal to 750px  */
+
+/*    x  viewpoint less than or equal to 750px x */

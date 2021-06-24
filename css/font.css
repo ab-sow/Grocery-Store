@@ -1,0 +1,44 @@
+@font-face{
+    font-family: abelkhan;
+    src: url('../Font/Abel/Abel-Regular.ttf');
+}
+
+@font-face{
+    font-family: josinkhan;
+    src: url('../Font/Josefin_Sans/JosefinSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: montkhan;
+    src: url('../Font/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face{
+    font-family: condkhan;
+    src: url('../Font/Open_Sans_Condensed/');
+}
+
+@font-face{
+    font-family: shadokhan;
+    src: url('../Font/Shadows_Into_Light/');
+}
+
+@font-face{
+    font-family: slabokhan;
+    src: url('../Font/Slabo_27px/Slabo27px-Regular.ttf');
+}
+
+@font-face{
+    font-family: sunkhan;
+    src: url('../Font/Sunshiney/Sunshiney-Regular.ttf');
+}
+
+@font-face{
+    font-family: ubuntukhan;
+    src: url('../Font/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face{
+    font-family: yeonkhan;
+    src: url('../Font/Yeon_Sung/YeonSung-Regular.ttf');
+}
